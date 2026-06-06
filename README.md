@@ -40,14 +40,11 @@ gcc main.c -o placar
 Após a compilação bem-sucedida, um arquivo executável chamado placar será gerado. Para rodá-lo, utilize o comando correspondente ao seu sistema operacional:
 
 No Linux ou macOS:
-
-Bash
 ```bash
 ./placar
 ```
-No Windows (Prompt de Comando ou PowerShell):
 
-Bash
+No Windows (Prompt de Comando ou PowerShell):
 ```bash
 .\placar.exe
 ```
