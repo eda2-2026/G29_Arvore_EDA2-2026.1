@@ -34,6 +34,7 @@ Abra o seu terminal na pasta onde o arquivo `main.c` está salvo e execute o seg
 
 ```bash
 gcc main.c -o placar
+```
 
 Passo 2: Execução
 Após a compilação bem-sucedida, um arquivo executável chamado placar será gerado. Para rodá-lo, utilize o comando correspondente ao seu sistema operacional:
