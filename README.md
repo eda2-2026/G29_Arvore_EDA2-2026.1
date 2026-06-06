@@ -1,1 +1,3 @@
-Commit inicial
+Este repositório contém o desenvolvimento de um **Sistema Interativo de Placar de Jogadores** desenvolvido inteiramente em **C**. 
+
+O núcleo do projeto é uma **Árvore Rubro-Negra (Red-Black Tree)** implementada do zero, utilizada para armazenar e ordenar os jogadores com base em suas pontuações. O objetivo principal é demonstrar de forma visual e prática os conceitos de balanceamento de árvores binárias de busca através dos 5 cenários clássicos de reparo por rotação (esquerda/direita) e recolorização de nós. A aplicação conta com um menu interativo no terminal capaz de registrar novos usuários, exibir o ranking geral de pontuação e renderizar a estrutura interna da árvore de forma gráfica e legível, facilitando o acompanhamento do balanceamento $O(\log n)$ a cada inserção.
