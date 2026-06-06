@@ -29,25 +29,14 @@ Para garantir que a árvore permaneça balanceada — ou seja, que a sua altura 
 
 Por ser um projeto escrito em C puro e sem dependências externas, você pode compilá-lo em qualquer sistema operacional (Linux, macOS ou Windows) que possua um compilador C instalado (como o `gcc`).
 
-### Passo 1: Compilação
+### Compilação
 Abra o seu terminal na pasta onde o arquivo `main.c` está salvo e execute o seguinte comando para compilar:
 
 ```bash
 gcc main.c -o placar
 ```
 
-Passo 2: Execução
-Após a compilação bem-sucedida, um arquivo executável chamado placar será gerado. Para rodá-lo, utilize o comando correspondente ao seu sistema operacional:
-
-No Linux ou macOS:
-
-Bash
-./placar
-No Windows (Prompt de Comando ou PowerShell):
-
-Bash
-.\placar.exe
-Como Testar o Balanceamento
+## Como Testar o Balanceamento
 Para ver o comportamento dinâmico e o balanceamento O(logn) funcionando na prática, siga este roteiro de testes através do menu interativo do terminal:
 
 Inicie o programa: O sistema já inicia com 3 jogadores de teste bem distribuídos (Alice com 40, Bob com 20 e Carlos com 60). Acesse a Opção 3 para ver a estrutura inicial perfeitamente simétrica.
