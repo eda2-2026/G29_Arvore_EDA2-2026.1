@@ -36,6 +36,21 @@ Abra o seu terminal na pasta onde o arquivo `main.c` está salvo e execute o seg
 gcc main.c -o placar
 ```
 
+## Execução
+Após a compilação bem-sucedida, um arquivo executável chamado placar será gerado. Para rodá-lo, utilize o comando correspondente ao seu sistema operacional:
+
+No Linux ou macOS:
+
+Bash
+```bash
+./placar
+```
+No Windows (Prompt de Comando ou PowerShell):
+
+Bash
+```bash
+.\placar.exe
+```
 ## Como Testar o Balanceamento
 Para ver o comportamento dinâmico e o balanceamento O(logn) funcionando na prática, siga este roteiro de testes através do menu interativo do terminal:
 
